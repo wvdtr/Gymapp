@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_database">
+
+    <fragment
+        android:id="@+id/navigation_database"
+        android:name="com.example.myapplication.ui.database.DatabaseFragment"
+        android:label="База данных"
+        tools:layout="@layout/fragment_database" />
+
+    <fragment
+        android:id="@+id/navigation_upr"
+        android:name="com.example.myapplication.ui.upr.UprFragment"
+        android:label="@string/title_upr"
+        tools:layout="@layout/fragment_upr" />
+
+    <fragment
+        android:id="@+id/navigation_calcsil"
+        android:name="com.example.myapplication.ui.calc_sil.CalcsilFragment"
+        android:label="@string/title_calc_sil"
+        tools:layout="@layout/fragment_calc_sil" />
+
+    <fragment
+        android:id="@+id/navigation_calckbju"
+        android:name="com.example.myapplication.ui.calc_kbju.CalckbjuFragment"
+        android:label="@string/title_calc_kbju"
+        tools:layout="@layout/fragment_calc_kbju" />
+
+</navigation>

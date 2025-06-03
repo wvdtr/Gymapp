@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_database"
+        android:icon="@drawable/contacts"
+        android:title="База данных"/>
+
+    <item
+        android:id="@+id/navigation_upr"
+        android:icon="@drawable/upr"
+        android:title="@string/title_upr" />
+
+    <item
+        android:id="@+id/navigation_calcsil"
+        android:icon="@drawable/calc_sil"
+        android:title="@string/title_calc_sil" />
+
+    <item
+        android:id="@+id/navigation_calckbju"
+        android:icon="@drawable/calc_kbju"
+        android:title="@string/title_calc_kbju" />
+</menu>

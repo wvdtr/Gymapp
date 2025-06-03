@@ -1,0 +1,54 @@
+[
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_upr.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_upr.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_calc_kbju.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_calc_kbju.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\dialog_add_product.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\dialog_add_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_strength_records.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_strength_records.xml"
+    },
+    {
+        "merged": "com.example.myapplication.app-mergeDebugResources-3:/layout/fragment_calc_kbju.xml",
+        "source": "com.example.myapplication.app-main-6:/layout/fragment_calc_kbju.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_contacts.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_contacts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\item_strength_record.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\item_strength_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_products.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\item_product.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\item_product.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_calc_sil.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_calc_sil.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\fragment_database.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\fragment_database.xml"
+    },
+    {
+        "merged": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-mergeDebugResources-3:\\layout\\dialog_add_strength_record.xml",
+        "source": "C:\\Users\\Пользователь\\.gradle\\daemon\\8.11.1\\com.example.myapplication.app-main-6:\\layout\\dialog_add_strength_record.xml"
+    }
+]

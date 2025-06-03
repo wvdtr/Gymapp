@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.upr.UprFragment"
+    android:background="@color/grey">
+
+    <EditText
+        android:id="@+id/editrzm_w"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="10dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_to_rzm" />
+
+    <TextView
+        android:id="@+id/rzm_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonrzm" />
+
+    <TextView
+        android:id="@+id/text_to_rzm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/upr_pon"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editrzm_r"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editrzm_w" />
+
+    <TextView
+        android:id="@+id/text_weight_rzm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/upr_weight"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/editrzm_w"
+        app:layout_constraintEnd_toStartOf="@+id/editrzm_w"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editrzm_w"
+        app:layout_constraintVertical_bias="0.653" />
+
+    <TextView
+        android:id="@+id/text_repeats_rzm"
+        android:layout_width="107dp"
+        android:layout_height="53dp"
+        android:gravity="center"
+        android:text="@string/upr_repeats"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/editrzm_r"
+        app:layout_constraintEnd_toStartOf="@+id/editrzm_r"
+        app:layout_constraintHorizontal_bias="0.457"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editrzm_r"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/buttonrzm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/upr_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editrzm_r" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="кг"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/editrzm_w"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editrzm_w"
+        app:layout_constraintTop_toTopOf="@+id/editrzm_w" />
+</androidx.constraintlayout.widget.ConstraintLayout>

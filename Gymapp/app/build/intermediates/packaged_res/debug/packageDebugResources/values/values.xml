@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="grey">#121212</color>
+    <color name="light_grey">#333333</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="app_name">Gymapp</string>
+    <string name="calc_kbju_pon">Введите названия блюд в графу слева, а его массу (в готовом виде) в графу справа.</string>
+    <string name="calc_kbju_poya">Здесь вы можете посчитать количество КБЖУ для любого продукта из списка.</string>
+    <string name="calc_kbju_sum">Общее количество КБЖУ за прием пищи</string>
+    <string name="calc_sil_repeats">Количество повторений, сделанных в отказ:</string>
+    <string name="calc_sil_weight">Масса снаряда:</string>
+    <string name="massa">Масса в килограммах</string>
+    <string name="povtoreniya">Количество повторений</string>
+    <string name="products">Список доступных продуктов: Картофельное пюре, Гречка, Рис, Макароны, Картошка вареная, Котлеты куриные жареные, Котлеты куриные запеченные, Котлеты говяжьи жареные, Котлеты говяжьи запеченные, Куриная грудка вареная.</string>
+    <string name="text_button_calc_sil">Посчитать свои силовые</string>
+    <string name="text_calc_sil_1">Здесь вы можете узнать свой одноповторный максимум, а также теоритический максимум на другое количество повторений.</string>
+    <string name="text_fragment_contacts">Приветствуем вас в нашем приложении!
+    Оно послужит Вам в качестве инструмента для расчёта КБЖУ, своих одноповторных максимумов, а также поможет правильно провести разминку.
+    В современном мире забота о здоровье и физической активности становится всё более актуальной, и мы здесь, чтобы помочь Вам на этом пути.
+    Если у Вас есть пожелания или идеи по улучшению приложения, мы с удовольствием их выслушаем!
+    Свяжитесь с нами в Telegram:
+    @wvdtr @zzzver_ZV.</string>
+    <string name="title_calc_kbju">Калькулятор КБЖУ</string>
+    <string name="title_calc_sil">Калькулятор силовых</string>
+    <string name="title_contacts">Контакты</string>
+    <string name="title_upr">Калькулятор разминки</string>
+    <string name="upr_btn">Рассчитать план разминочных подходов</string>
+    <string name="upr_pon">В графе снизу вам нужно указать желаемый вес (в килограммах) и количество повторений, которых Вы с ним сделаете в отказ, после этого снизу появится план разминочных подходов.</string>
+    <string name="upr_repeats">Количество повторений в отказ:</string>
+    <string name="upr_weight">Желаемый вес:</string>
+    <style name="Theme.MyApplication" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/light_grey</item>
+        <item name="colorPrimaryVariant">@color/light_grey</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/light_grey</item>
+        <item name="colorSecondaryVariant">@color/light_grey</item>
+        <item name="colorOnSecondary">@color/light_grey</item>
+
+        <item name="android:statusBarColor">@color/light_grey</item>
+
+    </style>
+</resources>

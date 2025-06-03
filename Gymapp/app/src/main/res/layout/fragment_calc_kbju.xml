@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/calc_kbju_pon"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.calc_kbju.CalckbjuFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grey">
+
+        <TextView
+            android:id="@+id/text_calc_kbju_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/calc_kbju_poya"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Spinner
+
+            android:id="@+id/spinner_calc_kbju_dish_1"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_calc_kbju_2" />
+
+        <EditText
+            android:id="@+id/edittext_calc_kbju_weight_1"
+            android:layout_width="135dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toEndOf="@+id/spinner_calc_kbju_dish_1"
+            app:layout_constraintTop_toTopOf="@+id/spinner_calc_kbju_dish_1" />
+
+        <TextView
+            android:id="@+id/calc_kbju_k_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_calc_kbju_dish_1" />
+
+        <TextView
+            android:id="@+id/calc_kbju_b_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_k_1"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_k_1" />
+
+        <TextView
+            android:id="@+id/calc_kbju_j_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_b_1"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_b_1" />
+
+        <TextView
+            android:id="@+id/calc_kbju_u_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_j_1"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_j_1" />
+
+        <Spinner
+            android:id="@+id/spinner_calc_kbju_dish_2"
+            android:layout_width="200dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calc_kbju_b_1" />
+
+        <EditText
+            android:id="@+id/edittext_calc_kbju_weight_2"
+            android:layout_width="135dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="10dp"
+            android:ems="10"
+            android:inputType="number"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.25"
+            app:layout_constraintStart_toEndOf="@+id/spinner_calc_kbju_dish_2"
+            app:layout_constraintTop_toTopOf="@+id/spinner_calc_kbju_dish_2" />
+
+        <TextView
+            android:id="@+id/calc_kbju_k_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_calc_kbju_dish_2" />
+
+        <TextView
+            android:id="@+id/calc_kbju_b_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_k_2"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_k_2" />
+
+        <TextView
+            android:id="@+id/calc_kbju_j_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_b_2"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_b_2" />
+
+        <TextView
+            android:id="@+id/calc_kbju_u_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_j_2"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_j_2" />
+
+        <TextView
+            android:id="@+id/text_calc_kbju_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="@string/calc_kbju_pon"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_calc_kbju_1" />
+
+        <TextView
+            android:id="@+id/text_calc_kbju_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+            android:text="@string/calc_kbju_sum"
+            android:textColor="@color/white"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calc_kbju_u_2" />
+
+        <TextView
+            android:id="@+id/calc_kbju_k_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text_calc_kbju_3" />
+
+        <TextView
+            android:id="@+id/calc_kbju_b_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_k_sum"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_k_sum" />
+
+        <TextView
+            android:id="@+id/calc_kbju_j_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_b_sum"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_b_sum" />
+
+        <TextView
+            android:id="@+id/calc_kbju_u_sum"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textColor="@color/white"
+            app:layout_constraintStart_toEndOf="@+id/calc_kbju_j_sum"
+            app:layout_constraintTop_toTopOf="@+id/calc_kbju_j_sum" />
+
+        <Button
+            android:id="@+id/calc_kbju_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Посчитать КБЖУ"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calc_kbju_u_sum" />
+
+        <Button
+            android:id="@+id/button_add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Добавить новый продукт"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/calc_kbju_button" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="г"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/edittext_calc_kbju_weight_1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toEndOf="@+id/edittext_calc_kbju_weight_1"
+            app:layout_constraintTop_toTopOf="@+id/edittext_calc_kbju_weight_1"
+            app:layout_constraintVertical_bias="0.448" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="г"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="@+id/edittext_calc_kbju_weight_2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.369"
+            app:layout_constraintStart_toEndOf="@+id/edittext_calc_kbju_weight_2"
+            app:layout_constraintTop_toTopOf="@+id/edittext_calc_kbju_weight_2"
+            app:layout_constraintVertical_bias="0.482" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
